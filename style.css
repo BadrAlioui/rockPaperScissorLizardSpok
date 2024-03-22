@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.btn::after {
+    content: attr(data-choice);
+}
+
+.btn:nth-child(3)::after {
+    position: relative;
+    left: -0.5em;
+}
+
+img {
+    width: 259px;
+    height: 194;
+}
