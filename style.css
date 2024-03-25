@@ -36,3 +36,16 @@ img {
     width: 259px;
     height: 194;
 }
+
+.button-submit button {
+    width: 130px;
+    height: 35px;
+    background-color: #6c757d;
+    color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.button-submit button:hover {
+    background-color: black;
+}
