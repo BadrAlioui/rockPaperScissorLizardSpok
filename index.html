@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
 
         <link rel="stylesheet" href="./style.css" />
 
@@ -29,7 +32,7 @@
             </button>
         </div>
         <div class="container">
-            <div id="player1">
+            <div id="player">
                 <h2>Player1</h2>
                 <img src="./images/dice1.png" alt="dice1" />
             </div>
@@ -39,9 +42,12 @@
                 <img src="./images/dice1.png" alt="dice1" />
             </div>
         </div>
-        <div class="button-submit">
-            <button>Submit</button>
-        </div>
+        <form id="gameForm">
+            <div class="button-submit">
+                <button>Submit</button>
+            </div>
+            <div class="score"></div>
+        </form>
 
         <script src="./index.js"></script>
         <script
