@@ -50,31 +50,31 @@ function choiceSign() {
 
 function runGame() {
     if (playerChoice === 1 && (computerChoice === 2 || computerChoice === 4)) {
-        document.querySelector('h1').innerHTML = 'Player1 wins!';
+        document.querySelector('h1').innerHTML = 'Player wins!';
         incrementScore();
     } else if (
         playerChoice === 2 &&
         (computerChoice === 3 || computerChoice === 4)
     ) {
-        document.querySelector('h1').innerHTML = 'Player1 wins!';
+        document.querySelector('h1').innerHTML = 'Player wins!';
         incrementScore();
     } else if (
         playerChoice === 3 &&
         (computerChoice === 1 || computerChoice === 5)
     ) {
-        document.querySelector('h1').innerHTML = 'Player1 wins!';
+        document.querySelector('h1').innerHTML = 'Player wins!';
         incrementScore();
     } else if (
         playerChoice === 4 &&
         (computerChoice === 5 || computerChoice === 3)
     ) {
-        document.querySelector('h1').innerHTML = 'Player1 wins!';
+        document.querySelector('h1').innerHTML = 'Player wins!';
         incrementScore();
     } else if (
         playerChoice === 5 &&
         (computerChoice === 1 || computerChoice === 2)
     ) {
-        document.querySelector('h1').innerHTML = 'Player1 wins!';
+        document.querySelector('h1').innerHTML = 'Player wins!';
         incrementScore();
     } else if (playerChoice === computerChoice) {
         document.querySelector('h1').innerHTML = 'Draw!';
