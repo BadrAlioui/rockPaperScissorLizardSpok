@@ -1,11 +1,23 @@
 body {
+    background-color: #393E46;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ECCA3;
     text-align: center;
+}
+
+h2, p {
+    font-size: 2rem;
+    color: #4ecca3;
+    font-family: 'Indie Flower', cursive;
 }
 
 .container {

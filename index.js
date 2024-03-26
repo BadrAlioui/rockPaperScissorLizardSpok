@@ -95,6 +95,7 @@ function submitChoice() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+    resetComputer();
     let buttons = document.querySelectorAll('button[data-choice]');
     for (let button of buttons) {
         button.addEventListener('click', choiceSign);
