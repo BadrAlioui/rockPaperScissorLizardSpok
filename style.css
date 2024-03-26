@@ -49,3 +49,13 @@ img {
 .button-submit button:hover {
     background-color: black;
 }
+
+.score-area {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.score-area .scores {
+    padding: 10px;
+}
