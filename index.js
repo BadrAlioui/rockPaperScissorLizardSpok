@@ -56,30 +56,30 @@ function runGame() {
         playerChoice === 2 &&
         (computerChoice === 3 || computerChoice === 4)
     ) {
-        document.querySelector('h1').innerHTML = 'Player wins!';
+        document.querySelector('h1').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (
         playerChoice === 3 &&
         (computerChoice === 1 || computerChoice === 5)
     ) {
-        document.querySelector('h1').innerHTML = 'Player wins!';
+        document.querySelector('h1').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (
         playerChoice === 4 &&
         (computerChoice === 5 || computerChoice === 3)
     ) {
-        document.querySelector('h1').innerHTML = 'Player wins!';
+        document.querySelector('h1').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (
         playerChoice === 5 &&
         (computerChoice === 1 || computerChoice === 2)
     ) {
-        document.querySelector('h1').innerHTML = 'Player wins!';
+        document.querySelector('h1').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (playerChoice === computerChoice) {
         document.querySelector('h1').innerHTML = 'Draw!';
     } else {
-        document.querySelector('h1').innerHTML = 'Computer wins!';
+        document.querySelector('h1').innerHTML = 'Computer Wins! 🚩';
         incrementLost();
     }
 }
@@ -118,6 +118,7 @@ document.addEventListener('keydown', function (event) {
 function incrementScore() {
     let oldScore = parseInt(document.getElementById('score').innerText);
     document.getElementById('score').innerText = ++oldScore;
+    
 }
 
 function incrementLost() {
