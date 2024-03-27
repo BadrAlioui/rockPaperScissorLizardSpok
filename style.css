@@ -14,18 +14,13 @@ h1 {
     text-align: center;
 }
 
-h2,
-p {
+h2{
     font-size: 2rem;
     color: #4ecca3;
     font-family: 'Indie Flower', cursive;
 }
 
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
+
 
 div {
     text-align: center;
@@ -37,6 +32,26 @@ button {
     margin-right: 10px;
 }
 
+img {
+    width: 259px;
+    height: 194;
+}
+
+footer
+p  {
+    margin-top: 5%;
+    color: #eeeeee;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+}
+
+/* class */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
 .btn::after {
     content: attr(data-choice);
 }
@@ -46,10 +61,7 @@ button {
     left: -0.5em;
 }
 
-img {
-    width: 259px;
-    height: 194;
-}
+
 
 .button-submit button {
     width: 130px;
@@ -73,6 +85,8 @@ img {
 .score-area .scores {
     padding: 10px;
 }
+
+
 
 @media screen and (max-width: 585px) {
     h1 {

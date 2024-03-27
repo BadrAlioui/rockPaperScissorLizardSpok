@@ -50,7 +50,7 @@ function choiceSign() {
 
 function runGame() {
     if (playerChoice === 1 && (computerChoice === 2 || computerChoice === 4)) {
-        document.querySelector('h1').innerHTML = 'Player wins!';
+        document.querySelector('h1').innerHTML = '🚩 Player wins!';
         incrementScore();
     } else if (
         playerChoice === 2 &&
@@ -118,10 +118,25 @@ document.addEventListener('keydown', function (event) {
 function incrementScore() {
     let oldScore = parseInt(document.getElementById('score').innerText);
     document.getElementById('score').innerText = ++oldScore;
-    
+    if (oldScore === 3) {
+        document.querySelector('h1').innerHTML = 'You win!';
+        alert('Hey! You got it!Congratualtions!');
+        resetScore();
+    }
 }
-
 function incrementLost() {
     let oldScore = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++oldScore;
+    if (oldScore === 3) {
+        document.querySelector('h1').innerHTML = 'Game Over!';
+        alert(
+            'Awwww.... you lost three times!Sorry It is the end of the game!'
+        );
+        resetScore();
+    }
+}
+
+function resetScore() {
+    document.getElementById('score').innerText = 0;
+    document.getElementById('incorrect').innerText = 0;
 }
