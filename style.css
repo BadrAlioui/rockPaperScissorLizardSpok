@@ -5,12 +5,16 @@ body {
     box-sizing: border-box;
 }
 
-h1 {
+header, h1 {
     margin: 30px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
     font-size: 5rem;
     color: #4ECCA3;
+   
+}
+
+header, h1, img{
     text-align: center;
 }
 
