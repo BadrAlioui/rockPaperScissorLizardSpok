@@ -101,19 +101,27 @@ p  {
         width: 159px;
     }
 
-}
-
-@media screen and (max-width: 585px) {
     .btn {
         margin-right: 3px;
+    }
 
+    .game-area {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     h2 {
-        
         font-size: 1.7rem;
     }
+}
 
-   
+@media screen and (max-width: 280px) {
+    header h1 {
+        font-size: 2.75rem;
+    }
 
+    img {
+        width: 100%;
+    }
 }
