@@ -133,11 +133,13 @@ function startTimer(duration, display) {
 let isPlaying = false;
 
 function start() {
+    document.querySelector("header h1").style.display = "none";
+    document.querySelector("#play").style.display = "none";
     if (isPlaying) {
         return;
     }
     isPlaying = true;
-    var oneMinute = 10,
+    var oneSecond = 5,
         display = document.querySelector('#span-time');
-    startTimer(oneMinute, display);
+    startTimer(oneSecond, display);
 }
