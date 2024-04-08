@@ -67,7 +67,7 @@ function runGame() {
         document.querySelector('main #result').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (playerChoice === computerChoice) {
-        document.querySelector('mainr #result').innerHTML = 'Draw!';
+        document.querySelector('main #result').innerHTML = 'Draw!';
     } else {
         document.querySelector('main #result').innerHTML =
             'Computer Wins! 🚩';
