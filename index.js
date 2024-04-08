@@ -73,13 +73,21 @@ function runGame() {
             'Computer Wins! 🚩';
         incrementLost();
     }
+
+    if (oldLost > oldScore) {
+        document.querySelector("#time-blue").innerHTML = "Time is up, Computer won!";
+    } else if (oldLost < oldScore) {
+        document.querySelector("#time-blue").innerHTML = "Time is up, You won!";
+    } else {
+        document.querySelector("#time-blue").innerHTML = "Time is up, it's a Draw!";
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector(".game-area").style.display = "none";
     document.querySelector('#play').addEventListener('click', start);
     document
-    
+
         .querySelector('#computer img')
         .setAttribute('src', './images/dice' + 0 + '.png');
     choiceSign();
@@ -119,20 +127,19 @@ function startTimer(duration, display) {
             // When the user clicks on <span> (x), close the modal
             span.onclick = function () {
                 modal.style.display = "none";
+
+                resetGame();
+
+
             }
 
-            if (oldScore > oldLost) {
-                document.querySelector('h1').innerHTML = 'You win!';
-            } else if (oldScore < oldLost) {
-                document.querySelector('h1').innerHTML = 'Game Over You lost!';
-            } else {
-                document.querySelector('h1').innerHTML = 'Draw!';
-            }
+
         }
     }, 1000);
 }
 
 let isPlaying = false;
+
 
 function start() {
     document.querySelector(".game-area").style.display = "block";
@@ -142,7 +149,27 @@ function start() {
         return;
     }
     isPlaying = true;
-    var oneSecond = 5,
+    var oneSecond = 5;
         display = document.querySelector('#span-time');
     startTimer(oneSecond, display);
 }
+
+function resetGame() {
+    let playerChoice = 0;
+    let computerChoice = 0;
+    let image1 = "./images/dice" + playerChoice + ".png";
+    let imagePlayer = document.querySelector("#player img");
+    imagePlayer.setAttribute("src", image1);
+    document
+      .querySelector("#computer img")
+      .setAttribute("src", "./images/dice" + computerChoice + ".png");
+  
+    document.querySelector(".game-area").style.display = "none";
+    document.querySelector("header h1").style.display = "block";
+    document.querySelector("#play").style.display = "block";
+    document.querySelector("#score").innerHTML = 0;
+    document.querySelector("#incorrect").innerHTML = 0;
+    document.querySelector("#result").style.display = "none";
+    document.querySelector("#span-time").textContent = "00:05";
+    isPlaying = false;
+  }

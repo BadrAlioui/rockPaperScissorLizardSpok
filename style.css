@@ -21,9 +21,7 @@ header {
     text-align: center;
 }
 
-header h1 {
-    display: inline-block;
-}
+
 
 h2 {
     font-size: 2rem;
@@ -32,9 +30,7 @@ h2 {
     margin-bottom: 0;
 }
 
-div {
-    text-align: center;
-}
+
 
 button {
     width: 50px;
@@ -74,6 +70,8 @@ header #play {
     background-color: #b1cc4e;
     color: white;
     font-size: 2rem;
+    margin: auto;
+    
 }
 
 header #time-blue {
