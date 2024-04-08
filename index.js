@@ -111,6 +111,14 @@ function startTimer(duration, display) {
 
         if (--timer < 0) {
             clearInterval(interval);
+            var span = document.getElementsByClassName("close")[0];
+            var modal = document.getElementById("myModal");
+            modal.style.display = "block";
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
             if (oldScore > oldLost) {
                 document.querySelector('h1').innerHTML = 'You win!';
             } else if (oldScore < oldLost) {
