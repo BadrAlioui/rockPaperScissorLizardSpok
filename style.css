@@ -1,30 +1,35 @@
 body {
-    background-color: #393E46;
+    background-color: #393e46;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-header, h1 {
+header h1 {
     margin: 30px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 5rem;
-    color: #4ECCA3;
-   
+    font-size: 2.5rem;
+    color: #4ecca3;
+    margin-bottom: 0;
 }
 
-header, h1, img{
+header,
+h1,
+img {
     text-align: center;
 }
 
-h2{
+header h1 {
+    display: inline-block;
+}
+
+h2 {
     font-size: 2rem;
     color: #4ecca3;
     font-family: 'Indie Flower', cursive;
+    margin-bottom: 0;
 }
-
-
 
 div {
     text-align: center;
@@ -37,17 +42,47 @@ button {
 }
 
 img {
-    width: 259px;
-    height: 194;
+    width: 100%px;
+    height: auto;
 }
 
-
-p  {
-    margin-top: 5%;
+header p,
+main p,
+header #span-time {
+    margin-top: 10px;
+    margin-bottom: 0;
     color: #eeeeee;
     text-align: center;
     font-family: 'Indie Flower', cursive;
     font-size: 1.5rem;
+}
+
+footer p {
+    text-align: center;
+    color: #eeeeee;
+}
+
+/* id */
+header #play {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #cc914e;
+    border-radius: 50%;
+    background-color: #b1cc4e;
+    color: white;
+    font-size: 2rem;
+}
+
+#gameForm {
+    display: none;
+}
+
+header #time {
+    color: #aa1a2b;
+}
+
+header #result {
+    padding-bottom: 20px;
 }
 
 /* class */
@@ -64,8 +99,6 @@ p  {
     position: relative;
     left: -0.5em;
 }
-
-
 
 .button-submit button {
     width: 130px;
@@ -89,8 +122,6 @@ p  {
 .score-area .scores {
     padding: 10px;
 }
-
-
 
 @media screen and (max-width: 585px) {
     h1 {
@@ -116,12 +147,7 @@ p  {
     }
 }
 
-@media screen and (max-width: 320px) {
-
-    header{
-        margin: auto;
-    }
-
+@media screen and (max-width: 280px) {
     header h1 {
         font-size: 2.75rem;
     }
