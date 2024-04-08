@@ -40,44 +40,46 @@ function choiceSign() {
 
 function runGame() {
     if (playerChoice === 1 && (computerChoice === 2 || computerChoice === 4)) {
-        document.querySelector('header #result').innerHTML = '🚩 Player wins!';
+        document.querySelector('main #result').innerHTML = '🚩 Player wins!';
         incrementScore();
     } else if (
         playerChoice === 2 &&
         (computerChoice === 3 || computerChoice === 4)
     ) {
-        document.querySelector('header #result').innerHTML = '🚩 Player Wins!';
+        document.querySelector('main #result').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (
         playerChoice === 3 &&
         (computerChoice === 1 || computerChoice === 5)
     ) {
-        document.querySelector('header #result').innerHTML = '🚩 Player Wins!';
+        document.querySelector('main #result').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (
         playerChoice === 4 &&
         (computerChoice === 5 || computerChoice === 3)
     ) {
-        document.querySelector('header #result').innerHTML = '🚩 Player Wins!';
+        document.querySelector('main #result').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (
         playerChoice === 5 &&
         (computerChoice === 1 || computerChoice === 2)
     ) {
-        document.querySelector('header #result').innerHTML = '🚩 Player Wins!';
+        document.querySelector('main #result').innerHTML = '🚩 Player Wins!';
         incrementScore();
     } else if (playerChoice === computerChoice) {
-        document.querySelector('header #result').innerHTML = 'Draw!';
+        document.querySelector('mainr #result').innerHTML = 'Draw!';
     } else {
-        document.querySelector('header #result').innerHTML =
+        document.querySelector('main #result').innerHTML =
             'Computer Wins! 🚩';
         incrementLost();
     }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector(".game-area").style.display = "none";
     document.querySelector('#play').addEventListener('click', start);
     document
+    
         .querySelector('#computer img')
         .setAttribute('src', './images/dice' + 0 + '.png');
     choiceSign();
@@ -133,6 +135,7 @@ function startTimer(duration, display) {
 let isPlaying = false;
 
 function start() {
+    document.querySelector(".game-area").style.display = "block";
     document.querySelector("header h1").style.display = "none";
     document.querySelector("#play").style.display = "none";
     if (isPlaying) {

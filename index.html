@@ -14,7 +14,7 @@
 <body>
     <header>
         <h1>Let's start!</h1>
-        <button id="play">Play!</button>
+        
         <!-- The Modal -->
         <div id="myModal" class="modal">
 
@@ -38,9 +38,9 @@
         <img src="./images/instructions.png" alt="instructions" />
 
         <div id="time">
-            <p id="result">Game closes in <span id="span-time">00:05</span> secondes!</p>
+            <p id="timer">Game closes in <span id="span-time">00:05</span> secondes!</p>
         </div>
-
+        <button id="play">Play!</button>
         <div class="game-area">
             <button class="btn" data-choice="paper">
                 <i class="fa-regular fa-hand"></i>
@@ -60,7 +60,9 @@
         </div>
     </header>
     <main>
+        <h1 id="result"></h1>
         <div class="container">
+            
             <div id="computer">
                 <h2>Computer</h2>
                 <img src="./images/dice1.png" alt="dice1" />
