@@ -15,47 +15,7 @@
     <body>
         <header>
             <h1>Let's start!</h1>
-            <img src="./images/instructions.png" alt="instructions">
-            <p>The first to get 3 points wins!</p>
-        
-        
-        <div class="game-area">
-            <button class="btn" data-choice="paper">
-                <i class="fa-regular fa-hand"></i>
-            </button>
-            <button class="btn" data-choice="rock">
-                <i class="fa-regular fa-hand-back-fist"></i>
-            </button>
-            <button class="btn" data-choice="scissors">
-                <i class="fa-regular fa-hand-scissors"></i>
-            </button>
-            <button class="btn" data-choice="lizard">
-                <i class="fa-regular fa-hand-lizard"></i>
-            </button>
-            <button class="btn" data-choice="spock" ="">
-                <i class="fa-regular fa-hand-spock"></i>
-            </button>
-        </div>
-    </header> 
-    <main>
-        <div class="container">
-            <div id="player">
-                <h2>Player</h2>
-                <img src="./images/dice1.png" alt="dice1" />
-            </div>
-
-            <div id="computer">
-                <h2>Computer</h2>
-                <img src="./images/dice1.png" alt="dice1" />
-            </div>
-        </div>
-        <form id="gameForm">
-            <div class="button-submit">
-                <button>Submit</button>
-            </div>
-            <div class="score"></div>
-        </form>
-        <footer>
+            <button id="play">Play!</button>
             <div class="score-area">
                 <p class="scores">
                     <i class="fa-solid fa-gamepad"></i> Wins
@@ -66,11 +26,52 @@
                     <span id="incorrect">0</span>
                 </p>
             </div>
-    
-    </main>
-        
+            <img src="./images/instructions.png" alt="instructions" />
+            <p id="result">You have 10!</p>
+            <div id="time">
+                Game closes in <span id="span-time">00:10</span> secondes!
+            </div>
+
+            <div class="game-area">
+                <button class="btn" data-choice="paper">
+                    <i class="fa-regular fa-hand"></i>
+                </button>
+                <button class="btn" data-choice="rock">
+                    <i class="fa-regular fa-hand-back-fist"></i>
+                </button>
+                <button class="btn" data-choice="scissors">
+                    <i class="fa-regular fa-hand-scissors"></i>
+                </button>
+                <button class="btn" data-choice="lizard">
+                    <i class="fa-regular fa-hand-lizard"></i>
+                </button>
+                <button class="btn" data-choice="spock" ="">
+                    <i class="fa-regular fa-hand-spock"></i>
+                </button>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div id="computer">
+                    <h2>Computer</h2>
+                    <img src="./images/dice1.png" alt="dice1" />
+                </div>
+                <div id="player">
+                    <h2>Player</h2>
+                    <img src="./images/dice1.png" alt="dice1" />
+                </div>
+            </div>
+            <form id="gameForm">
+                <div class="button-submit">
+                    <button>Submit</button>
+                </div>
+                <div class="score"></div>
+            </form>
+        </main>
+        <footer>
+            <p>Badr Aliloui 2024 All Rights Reserved</p>
         </footer>
-        
+
         <script src="./index.js"></script>
         <script
             src="https://kit.fontawesome.com/cb6c7c229d.js"
