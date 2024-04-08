@@ -1,81 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
-            rel="stylesheet"
-        />
 
-        <link rel="stylesheet" href="./style.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
 
-        <title>Rock, Paper, Scissors, Lizard, Spock</title>
-    </head>
-    <body>
-        <header>
-            <h1>Let's start!</h1>
-            <button id="play">Play!</button>
-            <div class="score-area">
-                <p class="scores">
-                    <i class="fa-solid fa-gamepad"></i> Wins
-                    <span id="score">0</span>
-                </p>
-                <p class="scores">
-                    <i class="fa-solid fa-computer"></i> Losts
-                    <span id="incorrect">0</span>
-                </p>
-            </div>
-            <img src="./images/instructions.png" alt="instructions" />
-            <p id="result">You have 10!</p>
-            <div id="time">
-                Game closes in <span id="span-time">00:10</span> secondes!
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Rock, Paper, Scissors, Lizard, Spock</title>
+</head>
+
+<body>
+    <header>
+        <h1>Let's start!</h1>
+        <button id="play">Play!</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
             </div>
 
-            <div class="game-area">
-                <button class="btn" data-choice="paper">
-                    <i class="fa-regular fa-hand"></i>
-                </button>
-                <button class="btn" data-choice="rock">
-                    <i class="fa-regular fa-hand-back-fist"></i>
-                </button>
-                <button class="btn" data-choice="scissors">
-                    <i class="fa-regular fa-hand-scissors"></i>
-                </button>
-                <button class="btn" data-choice="lizard">
-                    <i class="fa-regular fa-hand-lizard"></i>
-                </button>
-                <button class="btn" data-choice="spock" ="">
-                    <i class="fa-regular fa-hand-spock"></i>
-                </button>
-            </div>
-        </header>
-        <main>
-            <div class="container">
-                <div id="computer">
-                    <h2>Computer</h2>
-                    <img src="./images/dice1.png" alt="dice1" />
-                </div>
-                <div id="player">
-                    <h2>Player</h2>
-                    <img src="./images/dice1.png" alt="dice1" />
-                </div>
-            </div>
-            <form id="gameForm">
-                <div class="button-submit">
-                    <button>Submit</button>
-                </div>
-                <div class="score"></div>
-            </form>
-        </main>
-        <footer>
-            <p>Badr Aliloui 2024 All Rights Reserved</p>
-        </footer>
+        </div>
+        <div class="score-area">
+            <p class="scores">
+                <i class="fa-solid fa-gamepad"></i> Wins
+                <span id="score">0</span>
+            </p>
+            <p class="scores">
+                <i class="fa-solid fa-computer"></i> Losts
+                <span id="incorrect">0</span>
+            </p>
+        </div>
+        <img src="./images/instructions.png" alt="instructions" />
+        <p id="result">You have 10!</p>
+        <div id="time">
+            Game closes in <span id="span-time">00:10</span> secondes!
+        </div>
 
-        <script src="./index.js"></script>
-        <script
-            src="https://kit.fontawesome.com/cb6c7c229d.js"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+        <div class="game-area">
+            <button class="btn" data-choice="paper">
+                <i class="fa-regular fa-hand"></i>
+            </button>
+            <button class="btn" data-choice="rock">
+                <i class="fa-regular fa-hand-back-fist"></i>
+            </button>
+            <button class="btn" data-choice="scissors">
+                <i class="fa-regular fa-hand-scissors"></i>
+            </button>
+            <button class="btn" data-choice="lizard">
+                <i class="fa-regular fa-hand-lizard"></i>
+            </button>
+            <button class="btn" data-choice="spock"="">
+                <i class="fa-regular fa-hand-spock"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="computer">
+                <h2>Computer</h2>
+                <img src="./images/dice1.png" alt="dice1" />
+            </div>
+            <div id="player">
+                <h2>Player</h2>
+                <img src="./images/dice1.png" alt="dice1" />
+            </div>
+        </div>
+        <form id="gameForm">
+            <div class="button-submit">
+                <button>Submit</button>
+            </div>
+            <div class="score"></div>
+        </form>
+    </main>
+    <footer>
+        <p>Badr Aliloui 2024 All Rights Reserved</p>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/cb6c7c229d.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
