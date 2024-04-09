@@ -9,6 +9,7 @@ function computerPlay() {
 }
 
 function choiceSign() {
+
     let buttons = document.querySelectorAll('button[data-choice]');
     for (let button of buttons) {
         button.addEventListener('click', function () {
@@ -84,12 +85,18 @@ function runGame() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector(".game-area").style.display = "none";
-    document.querySelector('#play').addEventListener('click', start);
+    document
+
+        .querySelector('#player img')
+        .setAttribute('src', './images/dice0' + '.png');
     document
 
         .querySelector('#computer img')
-        .setAttribute('src', './images/dice' + 0 + '.png');
+        .setAttribute('src', './images/dice0' + '.png');
+
+    document.querySelector(".game-area").style.display = "none";
+    document.querySelector('#play').addEventListener('click', start);
+
     choiceSign();
 });
 
@@ -150,7 +157,7 @@ function start() {
     }
     isPlaying = true;
     var oneSecond = 5;
-        display = document.querySelector('#span-time');
+    display = document.querySelector('#span-time');
     startTimer(oneSecond, display);
 }
 
@@ -161,9 +168,9 @@ function resetGame() {
     let imagePlayer = document.querySelector("#player img");
     imagePlayer.setAttribute("src", image1);
     document
-      .querySelector("#computer img")
-      .setAttribute("src", "./images/dice" + computerChoice + ".png");
-  
+        .querySelector("#computer img")
+        .setAttribute("src", "./images/dice" + computerChoice + ".png");
+
     document.querySelector(".game-area").style.display = "none";
     document.querySelector("header h1").style.display = "block";
     document.querySelector("#play").style.display = "block";
@@ -172,4 +179,4 @@ function resetGame() {
     document.querySelector("#result").style.display = "none";
     document.querySelector("#span-time").textContent = "00:05";
     isPlaying = false;
-  }
+}

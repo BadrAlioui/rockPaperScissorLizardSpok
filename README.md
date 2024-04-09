@@ -80,9 +80,35 @@ Manual testing confirmed the game's mechanics, UI elements, and outcomes work as
 
 Each possible game outcome was tested to ensure the correct results are displayed to the user.
 
-### Bugs
+### Bugs & Hiccups
 
-Minor bugs encountered during development were resolved, improving game functionality and user experience.
+Alright, let’s talk about some of the bumps on the road I hit while making this game. It wasn’t all smooth sailing, and here’s a bit of the behind-the-scenes on the challenges and how I tackled them:
+
+1. **Unresponsive Buttons**: Ever had that moment when you press something and nothing happens? Yep, that was happening here after finishing a round. The game buttons just decided to take a nap.
+
+   - **Fix**: I had to dive back in and make sure those buttons knew their job, attaching those click events back every time the game refreshed. Wake-up call delivered!
+
+2. **Wonky Layout After Reset**: Imagine setting everything up neatly and then, poof, it looks like a mess when you try to start over. The game area was throwing a tantrum and not staying put.
+
+   - **Fix**: I played around with the CSS and made sure JavaScript was strict about keeping everything in line, especially when hitting that reset button. No more layout tantrums.
+
+3. **Scoreboard Getting Creative**: Scores should go up when you win, right? Well, mine had other ideas and liked to keep the suspense by not updating correctly.
+
+   - **Fix**: Had to have a serious chat with the score logic, ensuring it knew simple math and could keep up with who's winning and who's not. Problem solved.
+
+4. **Shy Modal on Game End**: You know, the pop-up that’s supposed to tell you all about your victory or, ahem, the other outcome... It was playing hide and seek on smaller screens.
+
+   - **Fix**: Gave the modal a makeover with some CSS tweaks and a bit of JavaScript magic so it could shine on all screens, shy no more!
+
+5. **Old Browser Blues**: Turns out, not all web browsers wanted to play my game right, especially the older ones with a grudge against modern layout styles and JavaScript.
+
+   - **Fix**: I had to go old school, bringing in some polyfills for the new JavaScript stuff and giving CSS some fallback options. Everyone’s invited to the party now.
+
+6. **Sticky Past Game States**: Imagine moving on to a new game, but your past keeps haunting you... That was happening here, old game states creeping into new games.
+
+   - **Fix**: Rolled up my sleeves and made sure that when we say reset, we mean it. Everything gets a fresh start now, no ghosts allowed.
+
+Going through these issues was like a rollercoaster, but hey, it made the game better and taught me a ton. Every bug squashed was a little victory dance moment. Hope you enjoy playing it as much as I enjoyed making it (and fixing it)!
 
 ## Deployment
 
