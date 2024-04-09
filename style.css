@@ -1,5 +1,5 @@
 body {
-    background-color: #393e46;
+    background-color: #222831;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ header h1 {
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
     font-size: 2.5rem;
-    color: #4ecca3;
+    color: #76ABAE;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -25,7 +25,7 @@ header {
 
 h2 {
     font-size: 2rem;
-    color: #4ecca3;
+    color: #76ABAE;
     font-family: 'Indie Flower', cursive;
     margin-bottom: 0;
 }
@@ -67,7 +67,7 @@ header #play {
     height: 80px;
     border: 1px solid #cc914e;
     border-radius: 50%;
-    background-color: #b1cc4e;
+    background-color: #76ABAE;
     color: white;
     font-size: 2rem;
     margin: auto;
@@ -77,6 +77,7 @@ header #play {
 header #time-blue {
 
     color: #007BFF;
+    font-size: 2rem;
 
 }
 
@@ -97,7 +98,7 @@ header #timer {
 
 /* class */
 
-header .scores{
+header .scores {
     margin: 0;
 }
 
@@ -131,14 +132,11 @@ main h1 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 33%;
     /*
     height: auto; /* 
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
+
 
 }
 
@@ -148,7 +146,8 @@ main h1 {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    border-radius: 10px;
+    width: 100%;
 
 }
 
@@ -205,8 +204,11 @@ main h1 {
         font-size: 4rem;
     }
 
-    img {
-        width: 159px;
+
+
+
+    h2 {
+        font-size: 1.7rem;
     }
 
     .btn {
@@ -217,19 +219,22 @@ main h1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+
     }
 
-    h2 {
-        font-size: 1.7rem;
-    }
-}
-
-@media screen and (max-width: 280px) {
-    header h1 {
-        font-size: 2.75rem;
+    #player h2,
+    #computer h2 {
+        margin-top: 5px;
     }
 
-    img {
-        width: 100%;
+
+
+    @media screen and (max-width: 280px) {
+        header h1 {
+            font-size: 2.75rem;
+        }
+
+        img {
+            width: 100%;
+        }
     }
-}

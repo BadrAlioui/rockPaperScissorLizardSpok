@@ -176,7 +176,13 @@ function resetGame() {
     document.querySelector("#play").style.display = "block";
     document.querySelector("#score").innerHTML = 0;
     document.querySelector("#incorrect").innerHTML = 0;
-    document.querySelector("#result").style.display = "none";
+    document.querySelector("#result").textContent = "";
     document.querySelector("#span-time").textContent = "00:05";
+    
     isPlaying = false;
+    
+
+    
+   
+
 }
