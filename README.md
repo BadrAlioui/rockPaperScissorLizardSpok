@@ -33,7 +33,7 @@ A web-based version of "Rock, Paper, Scissors, Lizard, Spock" adds a twist to th
 
 ### Fonts and Colours
 
-The website uses **Roboto** for its clean and modern feel. A contrast color scheme has been chosen to enhance readability and user engagement.
+The website uses **Roboto** for its clean and modern feel. A contrast color scheme has been chosen to enhance readability and user engagement from the site (https://colorhunt.co).
 
 <img width="184" alt="color" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fec7bba4-c63c-4187-a332-8b047a9fb3b5">
 
