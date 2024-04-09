@@ -35,11 +35,22 @@ A web-based version of "Rock, Paper, Scissors, Lizard, Spock" adds a twist to th
 
 The website uses **Roboto** for its clean and modern feel. A contrast color scheme has been chosen to enhance readability and user engagement.
 
-![Colour palette](documentation/color_palette.png)
+<img width="184" alt="color" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fec7bba4-c63c-4187-a332-8b047a9fb3b5">
 
-Adobe Illustrator was used to design distinctive and appealing game icons.
 
-![Mockup](documentation/mockup.png)
+DALL·E 3 (https://openai.com/dall-e-3),canva (https://www.canva.com/) and google were used to design distinctive and appealing game icons.
+![dice0](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fc81ad50-8a96-4632-9f9d-a3f572c782fb)
+![dice1](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/5f8694a6-786e-42ba-8e4f-cd242f2a3151)
+![dice2](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/52db58bc-fa22-4368-85c9-8f74c274d919)
+![dice3](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/d46fcdb9-90fd-4c8a-a54c-b264f7194b12)
+![spock](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fadb0cd7-2b2b-4528-9131-9693ebf6b099)
+![lizard](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/2ee56c76-e152-4144-a383-56268b549ea8)
+![instructions](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/194d0e3c-33d4-49dc-a855-461e70889a81)
+
+
+
+
+
 
 ### Game Flow
 
