@@ -76,11 +76,11 @@ function runGame() {
     }
 
     if (oldLost > oldScore) {
-        document.querySelector("#time-blue").innerHTML = "Time is up, Computer won!";
+        document.querySelector("#time-up").innerHTML = "Time is up, Computer won!";
     } else if (oldLost < oldScore) {
-        document.querySelector("#time-blue").innerHTML = "Time is up, You won!";
+        document.querySelector("#time-up").innerHTML = "Time is up, You won!";
     } else {
-        document.querySelector("#time-blue").innerHTML = "Time is up, it's a Draw!";
+        document.querySelector("#time-up").innerHTML = "Time is up, it's a Draw!";
     }
 }
 

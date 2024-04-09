@@ -1,5 +1,5 @@
 body {
-    background-color: #222831;
+    background-color: #240A34;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ header h1 {
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
     font-size: 2.5rem;
-    color: #76ABAE;
+    color: #EABE6C;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -25,7 +25,7 @@ header {
 
 h2 {
     font-size: 2rem;
-    color: #76ABAE;
+    color: #EABE6C;
     font-family: 'Indie Flower', cursive;
     margin-bottom: 0;
 }
@@ -48,7 +48,7 @@ main p,
 header #span-time {
     margin-top: 10px;
     margin-bottom: 0;
-    color: #eeeeee;
+    color: #FFEDD8;
     text-align: center;
     font-family: 'Indie Flower', cursive;
     font-size: 1.5rem;
@@ -57,7 +57,7 @@ header #span-time {
 
 footer p {
     text-align: center;
-    color: #eeeeee;
+    color: #FFEDD8;
     margin: 0;
 }
 
@@ -67,16 +67,16 @@ header #play {
     height: 80px;
     border: 1px solid #cc914e;
     border-radius: 50%;
-    background-color: #76ABAE;
-    color: white;
+    background-color: #EABE6C;
+    color: #FFEDD8;
     font-size: 2rem;
     margin: auto;
 
 }
 
-header #time-blue {
+header #time-up {
 
-    color: #007BFF;
+    color: #891652;
     font-size: 2rem;
 
 }
@@ -91,7 +91,7 @@ header #time-blue {
 
 header #timer {
     padding-bottom: 20px;
-    color: #aa1a2b;
+    color: #891652;
     margin-top: 0;
 
 }
@@ -110,7 +110,7 @@ header .scores {
 
 main h1 {
     text-align: center;
-    color: #eeeeee;
+    color: #FFEDD8;
     font-family: 'Indie Flower', cursive;
     margin-top: 10px;
     margin-bottom: 0;
@@ -142,7 +142,7 @@ main h1 {
 
 /* Modal Content */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #FFEDD8;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
@@ -180,7 +180,7 @@ main h1 {
     width: 130px;
     height: 35px;
     background-color: #6c757d;
-    color: white;
+    color: #FFEDD8;
     border: 1px solid #dee2e6;
     border-radius: 5px;
 }
