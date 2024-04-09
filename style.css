@@ -14,7 +14,7 @@ header h1 {
     font-size: 2.5rem;
     color: #4ecca3;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 header {
@@ -71,7 +71,7 @@ header #play {
     color: white;
     font-size: 2rem;
     margin: auto;
-    
+
 }
 
 header #time-blue {
@@ -103,13 +103,13 @@ header #timer {
     text-align: center;
 }
 
-main h1{
+main h1 {
     text-align: center;
     color: #eeeeee;
     font-family: 'Indie Flower', cursive;
     margin-top: 10px;
     margin-bottom: 0;
-    
+
 }
 
 /* The Modal (background) */
