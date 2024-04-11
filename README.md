@@ -141,7 +141,7 @@ The game is hosted on GitHub Pages. You can access the live site via the followi
 
 ## Credits
 
-Imagery
+### Imagery
 All images used on "The Review" website are sourced from [Google](https://www.google.com/search?sca_esv=28539f6bd3358b60&sca_upv=1&q=paper+scissors+rock+lizard+spock&uds=AMwkrPt5DqKoEcEgTvJpB2mLvFtAGjEEskpO9IiXCKeh_HXWgUiuBad_NOEy1-BjoLA9MKHM9mmAeaT0KZCfCiDI2gxNvP6Lzas8IVp0LFp37aQEqpWtH0v1SHQKJMeTae6KItc27q8_X8rBkeSB3Ms_ANi816UOqVxIsjaqkZy73VE6qZW2yDpB1s5aHbl6gWDqlgwjMjzi6D0e4lBZ4_NIbqwM_syumJSFn_CPjc-QWusAfCoPZ_dY8Q5xi3ytfMrk1wCZz1ARAgBZWzQDAMFRXLopHHtWZ5Qoc2_rL3lNHRWeRMr7zfjMo5bNxRdbu0UZmc2lrBxY&udm=2&prmd=ivnmbtz&sa=X&ved=2ahUKEwiLsfCj97mFAxWUSUEAHQPjAKMQtKgLegQIDhAB&biw=1280&bih=559&dpr=1.5), Additional images were carefully selected through [DALL E](https://openai.com/dall-e-3), [Canva](https://www.canva.com/)'s advanced image search , IMDb and wordpress
 
 ## Acknowledgements
