@@ -149,7 +149,7 @@ The game is hosted on GitHub Pages. To deploy your own version:
 2. Go to the repository's settings, navigate to the "Pages" section.
 3. In the "Source" dropdown, select the main branch containing your project files.
 
-The game is hosted on GitHub Pages. You can access the live site via the following link:[Game]https://badralioui.github.io/rockPaperScissorLizardSpok/
+The game is hosted on GitHub Pages. You can access the live site via the following link:[Game](https://badralioui.github.io/rockPaperScissorLizardSpok/)
 
 ## Credits
 
