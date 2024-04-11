@@ -75,6 +75,11 @@ Google Fonts for typography, Git for version control, and GitHub Pages for deplo
 ### Validation
 
 The HTML, CSS, and JavaScript files have been validated with no significant issues found.
+#### HTML
+![validatorHTML](validatorHtml.PNG)
+#### CSS
+![validatorCSS](validatorCSS.PNG)
+#### Javascript
 
 ### Browser Compatibility
 
