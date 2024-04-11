@@ -38,7 +38,7 @@ button {
     margin-right: 10px;
 }
 
-img {
+header .instructions {
     width: 200px;
     height: auto;
 }
@@ -204,6 +204,9 @@ main h1 {
         font-size: 1.75rem;
     }
 
+    header #timer {
+        font-size: 0.75rem;
+    }
 
 
 
@@ -227,12 +230,16 @@ main h1 {
         margin-top: 5px;
     }
 
+}
+
+@media screen and (max-width: 280px) {
 
 
-    @media screen and (max-width: 280px) {
-
-
-        img {
-            width: 100%;
-        }
+    #player img {
+        width: 100%;
     }
+
+    #computer img {
+        width: 100%;
+    }
+}
