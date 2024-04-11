@@ -100,8 +100,8 @@ document.addEventListener('DOMContentLoaded', function () {
     choiceSign();
 });
 
-let oldScore;
-let oldLost;
+let oldScore = 0;
+let oldLost = 0;
 function incrementScore() {
     oldScore = parseInt(document.querySelector('#score').innerHTML);
     document.getElementById('score').innerText = ++oldScore;
