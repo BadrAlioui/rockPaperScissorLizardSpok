@@ -78,6 +78,13 @@ HTML and CSS files have been validated without significant issues.
 
 <img width="916" alt="validatorCSS" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/81b63f8b-fd47-4b43-b7d1-d57d65cfdce7">
 
+#### Javascript
+
+No significant issues were found
+
+I got warnings
+
+<img width="245" alt="validatorJs" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/db52bc68-a762-4e50-9060-368c33ba05b1">
 
 ### Browser Compatibility
 
