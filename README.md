@@ -2,7 +2,7 @@
 
 ![Game Interface](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/b22bfaf6-5cad-4526-85e5-24308610bd17)
 
-### <a href="https://badralioui.github.io/rockPaperScissorLizardSpok/"target="_blank">Live Site</a>
+### [Live site](https://badralioui.github.io/rockPaperScissorLizardSpok/)
 
 ## Contents
 
