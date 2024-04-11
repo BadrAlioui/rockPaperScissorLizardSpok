@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelector(".game-area").style.display = "none";
     document.querySelector('#play').addEventListener('click', start);
-
+    enableBtn();
     choiceSign();
 });
 
@@ -132,6 +132,7 @@ function startTimer(duration, display) {
             var modal = document.getElementById("myModal");
             modal.style.display = "block";
             // When the user clicks on <span> (x), close the modal
+            disableBtn();
             span.onclick = function () {
                 modal.style.display = "none";
 
@@ -178,11 +179,25 @@ function resetGame() {
     document.querySelector("#incorrect").innerHTML = 0;
     document.querySelector("#result").textContent = "";
     document.querySelector("#span-time").textContent = "00:05";
-    
-    isPlaying = false;
-    
+    enableBtn();
 
-    
-   
+    isPlaying = false;
+
+
+
+
 
 }
+
+function disableBtn() {
+    let buttons = document.querySelectorAll(".btn");
+    for (let button of buttons) {
+        button.disabled = true;
+    }
+}
+
+function enableBtn() {
+    let buttons = document.querySelectorAll(".btn");
+    for (let button of buttons) {
+        button.disabled = false;
+    } }
