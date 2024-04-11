@@ -132,8 +132,6 @@ The game is hosted on GitHub Pages. To deploy your own version:
 
 The game is hosted on GitHub Pages. You can access the live site via the following link:https://badralioui.github.io/rockPaperScissorLizardSpok/
 
-Your site should now be live on GitHub Pages!
-
 ## Credits
 
 All game design elements, including icons and gameplay logic, were created by the author, providing a unique and engaging user experience.
