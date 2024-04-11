@@ -39,7 +39,7 @@ button {
 }
 
 img {
-    width: 100%;
+    width: 200px;
     height: auto;
 }
 
@@ -230,7 +230,7 @@ main h1 {
 
 
     @media screen and (max-width: 280px) {
-        
+
 
         img {
             width: 100%;
