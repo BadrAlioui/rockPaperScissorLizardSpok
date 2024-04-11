@@ -151,7 +151,7 @@ let isPlaying = false;
 function start() {
     document.querySelector(".game-area").style.display = "block";
     document.querySelector("header h1").style.display = "none";
-    document.querySelector("#play").style.display = "none";
+    document.querySelector("header #start").style.display = "none";
     if (isPlaying) {
         return;
     }
@@ -173,7 +173,7 @@ function resetGame() {
 
     document.querySelector(".game-area").style.display = "none";
     document.querySelector("header h1").style.display = "block";
-    document.querySelector("#play").style.display = "block";
+    document.querySelector("header #start").style.display = "block";
     document.querySelector("#score").innerHTML = 0;
     document.querySelector("#incorrect").innerHTML = 0;
     document.querySelector("#result").textContent = "";
