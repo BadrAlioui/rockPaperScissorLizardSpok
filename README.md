@@ -86,6 +86,18 @@ I got warnings
 
 <img width="245" alt="validatorJs" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/db52bc68-a762-4e50-9060-368c33ba05b1">
 
+## Accessibility
+
+Ensuring accessibility for all users is a cornerstone of "The Review". Our platform was rigorously tested to guarantee an inclusive user experience, with exemplary scores in both desktop and mobile accessibility assessments.
+
+- **Desktop Accessibility**:
+<img width="321" alt="performance_desktop" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/72562433-f1ad-425b-a376-abe68315121c">
+
+
+- **Mobile Accessibility**:
+<img width="322" alt="performance_mobile" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/eb4d1bb3-e739-48e3-a674-5a919e0e886e">
+
+
 ### Browser Compatibility
 
 Confirmed consistent and error-free user experience across Chrome, Firefox, and Edge.
