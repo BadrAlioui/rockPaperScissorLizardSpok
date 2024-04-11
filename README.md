@@ -71,7 +71,8 @@ HTML and CSS files have been validated without significant issues.
 
 #### HTML Validation
 
-![HTML Validation](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/documentation/validatorHtml.PNG)
+<img width="916" alt="validatorHtml" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/e815e413-1ce7-448b-aa77-f9c59176cf97">
+
 
 #### CSS Validation
 
