@@ -26,35 +26,36 @@
 
 ## Introduction
 
-A web-based version of "Rock, Paper, Scissors, Lizard, Spock" adds a twist to the traditional game by including two more choices, increasing the strategy and fun. Players compete against the computer, testing their decision-making skills in this enhanced version of the game.
+A web-based version of "Rock, Paper, Scissors, Lizard, Spock" introduces two additional choices to the traditional game. This enhancement increases the strategy and fun, allowing players to compete against the computer and test their decision-making skills in this updated classic.
 
 ## Design of the Website
 
 ### Fonts and Colours
 
-The website employs "Lobster" for headings and "Indie Flower" for body text, with a playful yet engaging aesthetic. The background color #240A34 contrasts with text and other elements in colors like #EABE6C and #FFEDD8 to grab attention.
+The website employs "Lobster" for headings and "Indie Flower" for body text, creating a playful yet engaging aesthetic. The background color is #240A34, with text and other elements in colors like #EABE6C and #FFEDD8 to grab attention.
 
 ![Colour Scheme](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fec7bba4-c63c-4187-a332-8b047a9fb3b5)
 
-Distinctive and appealing game icons enhance visual appeal and user experience, designed using resources like DALL·E 3, Canva, and Google.
+Distinctive, appealing game icons and instructions image enhance the game's visual appeal and user experience.
 
-![Game Icons](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fc81ad50-8a96-4632-9f9d-a3f572c782fb)
-
-(And so on for each icon and instructions image)
+- ![Paper Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fc81ad50-8a96-4632-9f9d-a3f572c782fb)
+- ![Rock Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/5f8694a6-786e-42ba-8e4f-cd242f2a3151)
+- ![Scissors Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/52db58bc-fa22-4368-85c9-8f74c274d919)
+- ![Lizard Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/d46fcdb9-90fd-4c8a-a54c-b264f7194b12)
+- ![Spock Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fadb0cd7-2b2b-4528-9131-9693ebf6b099)
+- ![Instructions Image](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/194d0e3c-33d4-49dc-a855-461e70889a81)
 
 ## Game Flow
 
-The game logic and user interaction are designed to provide an intuitive and engaging experience, with a clear progression from start to finish.
-
-![Game Flowchart](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/documentation/flowchart.png)
+The game logic and user interaction are designed to provide an intuitive and engaging experience, from the initial choice to the final outcome.
 
 ## Technologies Used
 
 ### Languages
 
-- HTML5
-- CSS3
-- JavaScript
+- **HTML5**
+- **CSS3**
+- **JavaScript**
 
 ### Frameworks, Libraries & Programs Used
 
@@ -66,7 +67,7 @@ The game logic and user interaction are designed to provide an intuitive and eng
 
 ### Validation
 
-HTML and CSS files have been validated, ensuring code quality and standards compliance.
+HTML and CSS files have been validated without significant issues.
 
 #### HTML Validation
 
@@ -78,32 +79,63 @@ HTML and CSS files have been validated, ensuring code quality and standards comp
 
 ### Browser Compatibility
 
-Tested across Chrome, Firefox, and Edge, confirming a consistent and error-free user experience.
+Confirmed consistent and error-free user experience across Chrome, Firefox, and Edge.
 
 ### Responsiveness
 
-Confirmed full responsiveness across devices of various sizes.
+Full responsiveness confirmed across devices of various sizes.
 
 ### Manual Testing
 
-Manual testing ensured user interaction and UI functionality worked as expected.
+| Test Case                                 | Expected Outcome                                                  | Result |
+|-------------------------------------------|-------------------------------------------------------------------|--------|
+| Click on the "Play!" button               | The game area becomes visible, and the countdown starts.          | Pass   |
+| Select a game choice (rock, paper, etc.)  | Player's choice is displayed; the computer makes a random choice; the game outcome is calculated. | Pass   |
+| Game timer runs out                       | A modal appears indicating the game's outcome based on the scores and allows the game to be restarted. | Pass   |
+| Restart the game after the game ends      | The game resets to the initial state with scores cleared, ready for a new session. | Pass   |
 
 ### Functional Testing
 
-Functional testing verified the game logic for wins, losses, and draws.
+Functional testing verified the game logic for determining wins, losses, and draws according to the rules of "Rock, Paper, Scissors, Lizard, Spock":
+
+| Player's Choice | Computer's Choice       | Expected Outcome | Result |
+|-----------------|-------------------------|------------------|--------|
+| Rock            | Scissors, Lizard        | Player Wins      | Pass   |
+| Paper           | Rock, Spock             | Player Wins      | Pass   |
+| Scissors        | Paper, Lizard           | Player Wins      | Pass   |
+| Lizard          | Spock, Paper            | Player Wins      | Pass   |
+| Spock           | Scissors, Rock          | Player Wins      | Pass   |
+| Any             | Same as Player's Choice | Draw             | Pass   |
+| Any             | Not covered by rules    | Computer Wins    | Pass   |
 
 ### Bugs & Fixes
 
-Detailed descriptions of any issues encountered during development and their resolutions.
+During development and testing, a few issues were encountered and resolved:
+
+1. **Issue:** Choice buttons remained active after game completion, allowing additional selections.
+   - **Fix:** Deactivated choice buttons after the game ends until it is restarted.
+
+2. **Issue:** Game did not properly reset scores and UI elements for a new game session.
+   - **Fix:** Implemented a `resetGame()` function that properly resets all relevant game state and UI elements.
+
+3. **Issue:** Timer continued running into negative numbers if not stopped manually.
+   - **Fix:** Ensured the timer stops at 0 and triggers the end-of-game logic automatically.
 
 ## Deployment
 
-The project is deployed on GitHub Pages, providing easy access for players worldwide.
+The game is hosted on GitHub Pages. To deploy your own version:
+1. Upload all necessary files to your GitHub repository.
+2. Go to the repository's settings, navigate to the "Pages" section.
+3. In the "Source" dropdown, select the main branch containing your project files.
+
+The game is hosted on GitHub Pages. You can access the live site via the following link:https://badralioui.github.io/rockPaperScissorLizardSpok/
+
+Your site should now be live on GitHub Pages!
 
 ## Credits
 
-All game design elements were created by the author, offering a unique gaming experience.
+All game design elements, including icons and gameplay logic, were created by the author, providing a unique and engaging user experience.
 
 ## Acknowledgements
-
-Special thanks to the open-source community for their invaluable resources and tutorials.
+- My Mentor Rahul for his ongoing support and feedback
+- The Code Institute's Tutor Support
