@@ -157,9 +157,9 @@ function start() {
         return;
     }
     isPlaying = true;
-    var oneSecond = 5;
+    var tenSecond = 10;
     display = document.querySelector('#span-time');
-    startTimer(oneSecond, display);
+    startTimer(tenSecond, display);
 }
 
 function resetGame() {
@@ -200,4 +200,5 @@ function enableBtn() {
     let buttons = document.querySelectorAll(".btn");
     for (let button of buttons) {
         button.disabled = false;
-    } }
+    }
+}
