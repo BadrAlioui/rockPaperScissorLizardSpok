@@ -162,7 +162,12 @@ During the development of this project, I utilized several resources to assist w
 
 - **Stack Overflow**: [This platform](https://stackoverflow.com/questions/20618355/how-to-write-a-countdown-timer-in-javascript) provided invaluable guidance for implementing the game timer functionality. The community responses helped troubleshoot and refine this feature to ensure it worked seamlessly, enhancing the game's interactivity and user engagement.
 
-- **W3Schools**: W3Schools was a critical resource for understanding and implementing fundamental JavaScript and CSS techniques used in creating the modal popup for the ["Time is up" notification](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) and [disabling buttons](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp) upon timer expiration. Their clear tutorials and examples were essential in facilitating the development of these features.I am thankful to the developers and educators who have shared their knowledge on these platforms, making it accessible for others to learn and apply in their projects.
+- **W3Schools**: W3Schools was a critical resource for understanding and implementing fundamental JavaScript and CSS techniques used in creating the modal popup for the ["Time is up" notification](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) and [disabling buttons](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp) upon timer expiration. Their clear tutorials and examples were essential in facilitating the development of these features.
+
+- **Favicon Generator**: [This tool](https://realfavicongenerator.net/) was instrumental in creating a favicon that is compatible across all browsers, ensuring a consistent and professional appearance for the website. It simplified the process of generating the necessary icon files and HTML code.
+
+
+I am thankful to the developers and educators who have shared their knowledge on these platforms, making it accessible for others to learn and apply in their projects.
 
 ## Acknowledgements
 - My Mentor Rahul for his ongoing support and feedback
