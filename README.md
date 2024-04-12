@@ -156,6 +156,14 @@ The game is hosted on GitHub Pages. You can access the live site via the followi
 ### Imagery
 All images used on "The Review" website are sourced from [Google](https://www.google.com/search?sca_esv=28539f6bd3358b60&sca_upv=1&q=paper+scissors+rock+lizard+spock&uds=AMwkrPt5DqKoEcEgTvJpB2mLvFtAGjEEskpO9IiXCKeh_HXWgUiuBad_NOEy1-BjoLA9MKHM9mmAeaT0KZCfCiDI2gxNvP6Lzas8IVp0LFp37aQEqpWtH0v1SHQKJMeTae6KItc27q8_X8rBkeSB3Ms_ANi816UOqVxIsjaqkZy73VE6qZW2yDpB1s5aHbl6gWDqlgwjMjzi6D0e4lBZ4_NIbqwM_syumJSFn_CPjc-QWusAfCoPZ_dY8Q5xi3ytfMrk1wCZz1ARAgBZWzQDAMFRXLopHHtWZ5Qoc2_rL3lNHRWeRMr7zfjMo5bNxRdbu0UZmc2lrBxY&udm=2&prmd=ivnmbtz&sa=X&ved=2ahUKEwiLsfCj97mFAxWUSUEAHQPjAKMQtKgLegQIDhAB&biw=1280&bih=559&dpr=1.5), Additional images were carefully selected through [DALL E](https://openai.com/dall-e-3), [Canva](https://www.canva.com/)'s advanced image search , IMDb and wordpress
 
+### External Resources
+
+During the development of this project, I utilized several resources to assist with specific functionalities:
+
+- **Stack Overflow**: [This platform](https://stackoverflow.com/questions/20618355/how-to-write-a-countdown-timer-in-javascript) provided invaluable guidance for implementing the game timer functionality. The community responses helped troubleshoot and refine this feature to ensure it worked seamlessly, enhancing the game's interactivity and user engagement.
+
+- **W3Schools**: W3Schools was a critical resource for understanding and implementing fundamental JavaScript and CSS techniques used in creating the modal popup for the ["Time is up" notification](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) and [disabling buttons](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp) upon timer expiration. Their clear tutorials and examples were essential in facilitating the development of these features.I am thankful to the developers and educators who have shared their knowledge on these platforms, making it accessible for others to learn and apply in their projects.
+
 ## Acknowledgements
 - My Mentor Rahul for his ongoing support and feedback
 - The Code Institute's Tutor Support
