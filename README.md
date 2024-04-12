@@ -90,7 +90,7 @@ I got warnings
 
 ## Accessibility
 
-Ensuring accessibility for all users is a cornerstone of "The Review". Our platform was rigorously tested to guarantee an inclusive user experience, with exemplary scores in both desktop and mobile accessibility assessments.
+Ensuring accessibility for all users is a cornerstone of "Game: Rock, Paper, Scissors, Lizard, Spock". Our platform was rigorously tested to guarantee an inclusive user experience, with exemplary scores in both desktop and mobile accessibility assessments.
 
 - **Desktop Accessibility**:
 <img width="321" alt="performance_desktop" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/72562433-f1ad-425b-a376-abe68315121c">
