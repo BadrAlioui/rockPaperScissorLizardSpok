@@ -157,9 +157,9 @@ function start() {
         return;
     }
     isPlaying = true;
-    var tenSecond = 10;
+    var fiveSecond =5;
     display = document.querySelector('#span-time');
-    startTimer(tenSecond, display);
+    startTimer(fiveSecond, display);
 }
 
 function resetGame() {
