@@ -1,6 +1,7 @@
 # Game: Rock, Paper, Scissors, Lizard, Spock
 
-<img width="831" alt="Capture" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/3d1345de-5dfc-487a-a75b-c7e13b335fec">
+<img width="823" alt="Capture" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/75652cc7-460e-4a51-95ba-c2c063001eee">
+
 
 
 
