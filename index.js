@@ -119,10 +119,9 @@ function startTimer(duration, display) {
         minutes = parseInt(timer / 60, 10);
         seconds = parseInt(timer % 60, 10);
 
-        minutes = minutes < 10 ? '0' + minutes : minutes;
-        seconds = seconds < 10 ? '0' + seconds : seconds;
+        seconds = seconds < 10 ? seconds : seconds;
 
-        display.textContent = minutes + ':' + seconds;
+        display.textContent = seconds;
 
         if (--timer < 0) {
             clearInterval(interval);
@@ -176,7 +175,7 @@ function resetGame() {
     document.querySelector('#score').innerText = '0';
     document.querySelector('#incorrect').innerText = '0';
     document.querySelector('#result').textContent = '';
-    document.querySelector('#span-time').textContent = '00:05';
+    document.querySelector('#span-time').textContent = '5';
     enableBtn();
 
     isPlaying = false;
