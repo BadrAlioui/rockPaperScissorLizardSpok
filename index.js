@@ -196,7 +196,7 @@ function enableBtn() {
 }
 
 function announceWinner() {
-    console.log(oldLost, oldScore);
+    
     if (oldLost > oldScore) {
         document.querySelector('#time-up').innerHTML =
             'Time is up, Computer won!';
