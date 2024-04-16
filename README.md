@@ -34,7 +34,7 @@ A web-based version of "Rock, Paper, Scissors, Lizard, Spock" introduces two add
 
 ### Fonts and Colours
 
-The website employs "Lobster" for headings and "Indie Flower" for body text, creating a playful yet engaging aesthetic. The background color is #240A34, with text and other elements in colors like #EABE6C and #FFEDD8 to grab attention.
+The website employs ["Rock salt"](https://fonts.google.com/selection/embed) for headings and ["Indie Flower"](https://fonts.google.com/selection/embed) for body text, creating a playful yet engaging aesthetic. The background color is #240A34, with text and other elements in colors like #EABE6C and #FFEDD8 to grab attention.
 
 ![Colour Scheme](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fec7bba4-c63c-4187-a332-8b047a9fb3b5)
 
