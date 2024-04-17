@@ -6,7 +6,7 @@ function computerPlay() {
 
     document
         .querySelector('#computer img')
-        .setAttribute('src', './images/dice' + computerChoice + '.png');
+        .setAttribute('src', './assets/images/dice' + computerChoice + '.png');
 }
 
 function listenButtons() {
@@ -32,7 +32,7 @@ function listenButtons() {
                     break;
             }
 
-            let image1 = './images/dice' + playerChoice + '.png';
+            let image1 = './assets/images/dice' + playerChoice + '.png';
             let imagePlayer = document.querySelector('#player img');
             imagePlayer.setAttribute('src', image1);
 
@@ -81,11 +81,11 @@ function runGame() {
 document.addEventListener('DOMContentLoaded', function () {
     document
         .querySelector('#player img')
-        .setAttribute('src', './images/dice0.png');
+        .setAttribute('src', './assets/images/dice0.png');
 
     document
         .querySelector('#computer img')
-        .setAttribute('src', './images/dice0.png');
+        .setAttribute('src', './assets/images/dice0.png');
 
     document.querySelector('.game-area').style.display = 'none';
     document.querySelector('#play').addEventListener('click', start);
@@ -164,10 +164,10 @@ function resetGame() {
     computerChoice = 0;
     document
         .querySelector('#player img')
-        .setAttribute('src', './images/dice' + playerChoice + '.png');
+        .setAttribute('src', './assets/images/dice' + playerChoice + '.png');
     document
         .querySelector('#computer img')
-        .setAttribute('src', './images/dice' + computerChoice + '.png');
+        .setAttribute('src', './assets/images/dice' + computerChoice + '.png');
 
     document.querySelector('.game-area').style.display = 'none';
     document.querySelector('header h1').style.display = 'block';
