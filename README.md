@@ -1,6 +1,6 @@
 # Game: Rock, Paper, Scissors, Lizard, Spock
 
-<img width="831" alt="Capture" src="./assets/images/Capture.PNG">
+<img width="831" alt="Capture" src="./assets/images/Capture.png">
 
 
 
@@ -36,10 +36,10 @@ A web-based version of "Rock, Paper, Scissors, Lizard, Spock" introduces two add
 
 The website employs ["Rock salt"](https://fonts.google.com/selection/embed) for headings and ["Indie Flower"](https://fonts.google.com/selection/embed) for body text, creating a playful yet engaging aesthetic. The background color is #240A34, with text and other elements in colors like #EABE6C and #FFEDD8 to grab attention.
 
-![Colour Scheme](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fec7bba4-c63c-4187-a332-8b047a9fb3b5)
+- <img src="./assets/images/color.png" alt ="color">
 
 Distinctive, appealing game icons and instructions image enhance the game's visual appeal and user experience.
-- <img src="./assets/images/color.png" alt ="color">
+
 - <img src="./assets/images/dice0.png" alt ="paper">
 - <img src="./assets/images/dice3.png" alt ="paper">
 - <img  src="./assets/images/dice1.png" alt ="rock">
