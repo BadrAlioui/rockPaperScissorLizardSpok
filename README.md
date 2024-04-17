@@ -1,7 +1,6 @@
 # Game: Rock, Paper, Scissors, Lizard, Spock
 
-<img width="823" alt="Capture" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/75652cc7-460e-4a51-95ba-c2c063001eee">
-
+<img width="831" alt="Capture" src="./assets/images/Capture.PNG">
 
 
 
@@ -40,13 +39,14 @@ The website employs ["Rock salt"](https://fonts.google.com/selection/embed) for 
 ![Colour Scheme](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fec7bba4-c63c-4187-a332-8b047a9fb3b5)
 
 Distinctive, appealing game icons and instructions image enhance the game's visual appeal and user experience.
-
-- ![Paper Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fc81ad50-8a96-4632-9f9d-a3f572c782fb)
-- ![Rock Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/5f8694a6-786e-42ba-8e4f-cd242f2a3151)
-- ![Scissors Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/52db58bc-fa22-4368-85c9-8f74c274d919)
-- ![Lizard Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/d46fcdb9-90fd-4c8a-a54c-b264f7194b12)
-- ![Spock Icon](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/fadb0cd7-2b2b-4528-9131-9693ebf6b099)
-- ![Instructions Image](https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/194d0e3c-33d4-49dc-a855-461e70889a81)
+- <img src="./assets/images/color.png" alt ="color">
+- <img src="./assets/images/dice0.png" alt ="paper">
+- <img src="./assets/images/dice3.png" alt ="paper">
+- <img  src="./assets/images/dice1.png" alt ="rock">
+- <img src="./assets/images/dice2.png" alt ="cissors">
+- <img src="./assets/images/dice4.png" alt ="lizards">
+- <img src="./assets/images/dice5.png" alt ="spock">
+- <img src="./assets/images/instructions.png" alt ="instructions">
 
 ## Game Flow
 
@@ -74,12 +74,12 @@ HTML and CSS files have been validated without significant issues.
 
 #### HTML Validation
 
-<img width="916" alt="validatorHtml" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/e815e413-1ce7-448b-aa77-f9c59176cf97">
+<img width="916" alt="validatorHtml" src="./assets/images/validatorHtml.PNG">
 
 
 #### CSS Validation
 
-<img width="916" alt="validatorCSS" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/81b63f8b-fd47-4b43-b7d1-d57d65cfdce7">
+<img width="916" alt="validatorCSS" src="./assets/images/validatorCSS.PNG">
 
 #### Javascript
 
@@ -87,7 +87,7 @@ No significant issues were found
 
 I got warnings
 
-<img width="245" alt="validatorJs" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/db52bc68-a762-4e50-9060-368c33ba05b1">
+<img width="245" alt="validatorJs" src="./assets/images/validatorJs.PNG">
 
 ### Manual Testing
 
@@ -118,11 +118,11 @@ Functional testing verified the game logic for determining wins, losses, and dra
 Ensuring accessibility for all users is a cornerstone of "Game: Rock, Paper, Scissors, Lizard, Spock". Our platform was rigorously tested to guarantee an inclusive user experience, with exemplary scores in both desktop and mobile accessibility assessments.
 
 - **Desktop Accessibility**:
-<img width="321" alt="performance_desktop" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/72562433-f1ad-425b-a376-abe68315121c">
+<img width="321" alt="performance_desktop" src="./assets/images/performance_desktop.PNG">
 
 
 - **Mobile Accessibility**:
-<img width="322" alt="performance_mobile" src="https://github.com/BadrAlioui/rockPaperScissorLizardSpok/assets/96729182/eb4d1bb3-e739-48e3-a674-5a919e0e886e">
+<img width="322" alt="performance_mobile" src="./assets/images/performance_mobile.PNG">
 
 
 ### Browser Compatibility
@@ -154,12 +154,12 @@ The game is hosted on GitHub Pages. To deploy your own version:
 2. Go to the repository's settings, navigate to the "Pages" section.
 3. In the "Source" dropdown, select the main branch containing your project files.
 
-The game is hosted on GitHub Pages. You can access the live site via the following link:[Game](https://badralioui.github.io/rockPaperScissorLizardSpok/)
+The game is hosted on GitHub Pages. You can access the live site via the following link: [Game](https://badralioui.github.io/rockPaperScissorLizardSpok/)
 
 ## Credits
 
 ### Imagery
-All images used on "The Review" website are sourced from [Google](https://www.google.com/search?sca_esv=28539f6bd3358b60&sca_upv=1&q=paper+scissors+rock+lizard+spock&uds=AMwkrPt5DqKoEcEgTvJpB2mLvFtAGjEEskpO9IiXCKeh_HXWgUiuBad_NOEy1-BjoLA9MKHM9mmAeaT0KZCfCiDI2gxNvP6Lzas8IVp0LFp37aQEqpWtH0v1SHQKJMeTae6KItc27q8_X8rBkeSB3Ms_ANi816UOqVxIsjaqkZy73VE6qZW2yDpB1s5aHbl6gWDqlgwjMjzi6D0e4lBZ4_NIbqwM_syumJSFn_CPjc-QWusAfCoPZ_dY8Q5xi3ytfMrk1wCZz1ARAgBZWzQDAMFRXLopHHtWZ5Qoc2_rL3lNHRWeRMr7zfjMo5bNxRdbu0UZmc2lrBxY&udm=2&prmd=ivnmbtz&sa=X&ved=2ahUKEwiLsfCj97mFAxWUSUEAHQPjAKMQtKgLegQIDhAB&biw=1280&bih=559&dpr=1.5), Additional images were carefully selected through [DALL E](https://openai.com/dall-e-3), [Canva](https://www.canva.com/)'s advanced image search.
+All images used on "The Review" website are sourced from [Google](https://www.google.com/search?sca_esv=28539f6bd3358b60&sca_upv=1&q=paper+scissors+rock+lizard+spock&uds=AMwkrPt5DqKoEcEgTvJpB2mLvFtAGjEEskpO9IiXCKeh_HXWgUiuBad_NOEy1-BjoLA9MKHM9mmAeaT0KZCfCiDI2gxNvP6Lzas8IVp0LFp37aQEqpWtH0v1SHQKJMeTae6KItc27q8_X8rBkeSB3Ms_ANi816UOqVxIsjaqkZy73VE6qZW2yDpB1s5aHbl6gWDqlgwjMjzi6D0e4lBZ4_NIbqwM_syumJSFn_CPjc-QWusAfCoPZ_dY8Q5xi3ytfMrk1wCZz1ARAgBZWzQDAMFRXLopHHtWZ5Qoc2_rL3lNHRWeRMr7zfjMo5bNxRdbu0UZmc2lrBxY&udm=2&prmd=ivnmbtz&sa=X&ved=2ahUKEwiLsfCj97mFAxWUSUEAHQPjAKMQtKgLegQIDhAB&biw=1280&bih=559&dpr=1.5), Additional images were carefully selected through [DALL E](https://openai.com/dall-e-3), [Canva](https://www.canva.com/)'s advanced image search , IMDb and wordpress
 
 ### External Resources
 
